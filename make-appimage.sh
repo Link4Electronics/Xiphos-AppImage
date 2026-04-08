@@ -11,6 +11,8 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/xiphos.svg
 export DESKTOP=/usr/share/applications/xiphos.desktop
 export STARTUPWMCLASS=xiphos
+export DEPLOY_GTK=1
+export GTK_DIR=gtk-3.0
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
